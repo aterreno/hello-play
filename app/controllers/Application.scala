@@ -9,4 +9,8 @@ object Application extends Controller {
     Ok(views.html.index("Your new application is ready."))
   }
 
+  def page = Action {
+    Ok(views.html.index ("Your application is not ready"))
+  }
+
 }
